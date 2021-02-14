@@ -262,16 +262,14 @@ body {
     background-size: cover;
 }
 
-.board-game-night {
-    /* margin: 0 0; */
+.hero-content-board-game-night {
     background: url("images/board-game-tile-bg.jpg");
     background-repeat: repeat;
-    /* background-size: cover; */
 }
 
-.hero-content .board-game-night {
-    margin: 0 0;
-    background: url("images/board-game-bg.jpg") no-repeat;
+.hero-content-nash-bash {
+    /* margin: 0 0; */
+    background: url("images/IMG_5833.jpg") no-repeat;
     background-size: cover;
 }
 
