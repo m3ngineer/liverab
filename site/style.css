@@ -3,6 +3,16 @@
 ------------------------------------------------------------*/
 /* background: -webkit-linear-gradient(#ff4747, #ffce47); */
 
+
+.content-section ul {
+  margin: 30px 0px;
+}
+
+.content-section li {
+  color: #000;
+  font-size: 20px;
+}
+
 .pad-top-100 {
   padding-top: 100px;
 }
@@ -453,8 +463,8 @@ body {
 .content-section {
     /* min-height: 4640px; */
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /* background: url("images/middle-cover.jpg"); */
     background-repeat: repeat-y;
     background-size: 100% auto;
@@ -1169,7 +1179,7 @@ body {
 }
 
 .main-content {
-    margin: 120px 0;
+    margin: 40px 0;
 }
 
 .main-content .entry-header .entry-title p {
@@ -1215,6 +1225,57 @@ body {
     font-weight: 600;
     color: #040608;
 }
+
+/* May need to remove if conflicting with other pages */
+
+.content-section .entry-header .entry-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7a7a7a;
+}
+
+.content-section .entry-header .entry-title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: #040608;
+}
+
+.content-section .entry-header h3 {
+    margin: 20px 0px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #040608;
+}
+
+.content-section .entry-description p {
+    margin: 0 !important;
+    padding: 0;
+    margin-top: 25px !important;
+    font-size: 15px;
+    font-weight: 300;
+    color: #989898;
+    line-height: 2;
+    hyphens: auto;
+}
+
+.content-section .entry-description p {
+    margin: 0 !important;
+    padding: 0;
+    margin-top: 25px !important;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 2;
+    hyphens: auto;
+}
+
+/* end conflict */
+
 
 .about-nash h3 {
     margin: 0;
